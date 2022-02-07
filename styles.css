@@ -58,6 +58,18 @@ nav img {
   grid-column: 1 / -1;
   justify-self: center; 
 }
+
+.information {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    justify-self: center;
+    position: relative;
+    top: 90px;
+
+    color:  rgb(0, 113, 227);
+    font-family: 'alliance-no1', sans-serif;
+  }
+
  /* fix grid overlapping title */
 @media only screen and (max-width: 400px) {
     .title {
@@ -65,14 +77,32 @@ nav img {
     }
 }
 
+.product-container {
+    overflow: hidden;
+}
+
 .phones {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+
+}
+
+.iphone-item {
+    transform: scale(1.2);
+    position: relative;
+    top: 40px;
+    right: 5px;
 }
 
 .accesories {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+}
+
+.accesories-item {
+    transform: scale(1.2);
+    position: relative;
+    top: 40px;
 }
 
 .macbooks {
@@ -85,6 +115,19 @@ nav img {
 .macbook-item {
     width: 100%;
     height: auto;
+    transform: rotate(-60deg) scale(1.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.charger {
+    width: 50%;
 }
 
 img {
