@@ -218,3 +218,22 @@ img {
     margin-left: 5%;
 }
 
+@media only screen and (min-width: 760px) {
+    nav {
+        height: 8vh;
+        }
+    .grid {
+        margin-top: 5%;
+        height: 150vh;
+    }
+
+    .macbook-item {
+        width: 120%;
+        padding-bottom: 50%;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    
+}
