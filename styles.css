@@ -218,6 +218,10 @@ img {
     margin-left: 5%;
 }
 
+.product-container p {
+    display: none;
+}
+
 @media only screen and (min-width: 760px) {
     nav {
         height: 8vh;
@@ -248,4 +252,10 @@ img {
     .nav-bar-icon {
         width: 50px;
     }
+
+    .iphone-item {
+        margin: 0 auto;
+        width: 100%;
+    }
+
 }
